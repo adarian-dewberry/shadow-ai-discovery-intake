@@ -1,43 +1,38 @@
-# Shadow AI Discovery & Risk Intake — Demo
+# Shadow AI Discovery & Risk Intake
 
-Governance-first demo dashboard to illustrate metadata-first Shadow AI discovery, risk triage, and an intake workflow for portfolio organizations.
+Governance-first Shadow AI discovery and triage dashboard built with Streamlit.
 
-Disclaimer: Demo uses simulated telemetry; metadata-first; no prompt/content inspection; privacy-aware.
+## Live Demo
+🔗 https://shadow-ai-discovery-intake-9rxlhv4tjqxkr3mdwwbfrb.streamlit.app/
 
-Features
-- Filters: Risk level, Department, Category
-- Executive-friendly metrics: total tools detected, high-risk count (Critical + High), users affected, average risk score
-- Visuals: risk distribution, department heatmap, discovery timeline
-- High-risk table with recommended action and a detailed tool view
-- Export: full report CSV, high-risk CSV, executive summary TXT
+> Note: Demo uses simulated telemetry and may be temporarily rate-limited during active development.
 
-Data
-The app loads CSVs from a local `data/` folder if present. Expected schema columns if using CSVs:
+## Overview
+This project demonstrates how organizations can:
+- Discover Shadow AI usage
+- Triage risk using metadata-only signals
+- Enable policy-aligned intake rather than reactive blocking
+- Generate executive-ready summaries
 
-- `tool_name`, `domain`, `category`, `dept`, `user_count`, `usage_count`, `first_detected`, `last_seen`, `data_type`, `vendor_tier`, `risk_score`, `risk_level`
+The demo is privacy-aware by design:
+- No prompt or content inspection
+- Metadata-first signals only
+- Simulated data only
 
-If CSVs are missing, the app generates a realistic demo dataset in-code so the app still runs.
+## Features
+- Risk-level, department, and category filtering
+- Executive KPI cards
+- Risk distribution and department heatmaps
+- Detailed tool-level views
+- Exportable CSV and TXT executive summaries
 
-Risk logic
-- If `risk_score` is missing, it is computed using a simple rubric combining `data_type`, `vendor_tier`, `usage_count`, and inferred `controls_present`.
-- Mapping:
-  - 70–100: Critical
-  - 50–69: High
-  - 30–49: Medium
-  - 0–29: Low
+## Tech Stack
+- Python
+- Streamlit
+- pandas
+- numpy
+- plotly
 
-Run
-
-Install dependencies and run the app:
-
-```bash
-python -m pip install -r requirements.txt
-streamlit run app.py
-```
-
-Notes
-- All discovery language in the UI is governance-first (enablement, policy-aligned).
-- The demo explicitly does not inspect prompts or content; it uses metadata/telemetry only.
-
-Footer
-Built by Adarian Dewberry
+## Author
+Built by Adarian Dewberry  
+🔗 Portfolio: https://adariandewberry.com | LinkedIn: https://www.linkedin.com/in/adariandewberry/
