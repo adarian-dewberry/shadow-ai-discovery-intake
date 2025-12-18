@@ -1,0 +1,9 @@
+Tool ID,Data Type,Vendor Tier,Usage Level,Missing Controls,Data Sensitivity (0-40),Vendor Risk (0-30),Usage Volume (0-20),Control Gaps (0-10),Total Score,Risk Level
+AI-001,Regulated (PHI/PCI/ITAR),Unknown vendor,Systematic (100+ uses),"No logging/monitoring, No data classification",40,30,20,6,96,Critical
+AI-002,Internal,Enterprise with BAA/DPA,Experimental (1-10 uses),No user training,10,0,5,2,17,Low
+AI-003,Confidential,"Business tier, no agreement",Regular (10-50 uses),No incident response plan,20,10,10,2,42,Medium
+AI-004,PII,Consumer free tier,Frequent (50-100 uses),"No logging/monitoring, No data classification, No user training",30,20,15,8,73,Critical
+AI-005,Public,Enterprise with BAA/DPA,Experimental (1-10 uses),None,0,0,5,0,5,Low
+AI-006,Internal,Unknown vendor,Systematic (100+ uses),"No logging/monitoring, No user training",10,30,20,5,65,High
+AI-007,Regulated (PHI/PCI/ITAR),"Business tier, no agreement",Frequent (50-100 uses),No data classification,40,10,15,3,68,High
+AI-008,Confidential,Consumer free tier,Regular (10-50 uses),No logging/monitoring,20,20,10,3,53,High

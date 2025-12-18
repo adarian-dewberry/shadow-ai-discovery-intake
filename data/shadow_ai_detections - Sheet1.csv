@@ -1,0 +1,51 @@
+tool_name,domain,category,first_detected,last_seen,user_count,dept,data_type,vendor_tier,usage_count,risk_score,risk_level
+ChatGPT Personal,chat.openai.com,LLM/Chat,2024-01-15,2024-12-16,47,Engineering,Confidential,Consumer free tier,450,75,Critical
+Grammarly,grammarly.com,Writing Assistant,2023-06-01,2024-12-16,234,Marketing,Internal,Business tier,2100,35,Medium
+GitHub Copilot,copilot.github.com,Coding Assistant,2024-03-10,2024-12-16,12,Engineering,Internal,Enterprise with BAA,800,15,Low
+Midjourney,midjourney.com,Image Generation,2024-02-20,2024-12-16,8,Design,Internal,Consumer free tier,95,45,High
+Otter.ai,otter.ai,Meeting Transcription,2024-05-12,2024-12-16,31,Sales,Confidential,Business tier,340,52,High
+Character.AI,character.ai,LLM/Chat,2024-08-03,2024-12-10,5,HR,PII,Consumer free tier,67,88,Critical
+Notion AI,notion.so,Productivity,2023-11-15,2024-12-16,89,All,Confidential,Business tier,1200,38,Medium
+Perplexity,perplexity.ai,Search/Research,2024-09-01,2024-12-15,22,Research,Internal,Consumer free tier,180,30,Medium
+Jasper,jasper.ai,Content Generation,2024-04-18,2024-12-14,6,Marketing,Internal,Business tier,145,28,Low
+Claude Personal,claude.ai,LLM/Chat,2024-10-05,2024-12-16,19,Engineering,Confidential,Consumer free tier,290,72,Critical
+Zapier AI,zapier.com,Workflow Automation,2024-01-08,2024-12-16,43,Operations,Confidential,Business tier,890,42,Medium
+Copy.ai,copy.ai,Content Generation,2024-06-22,2024-12-13,14,Marketing,Internal,Consumer free tier,210,51,High
+Synthesia,synthesia.io,Video Generation,2024-07-15,2024-12-11,3,Marketing,Internal,Business tier,45,33,Medium
+Fireflies.ai,fireflies.ai,Meeting Assistant,2024-02-28,2024-12-16,28,Sales,Confidential,Business tier,520,55,High
+Hugging Face,huggingface.co,ML Platform,2024-04-05,2024-12-15,9,Engineering,Confidential,Consumer free tier,315,78,Critical
+Descript,descript.com,Audio/Video Editing,2024-03-12,2024-12-14,11,Marketing,Internal,Business tier,198,36,Medium
+Runway ML,runwayml.com,Creative AI,2024-08-20,2024-12-10,4,Design,Internal,Consumer free tier,62,48,Medium
+Writesonic,writesonic.com,Content Generation,2024-05-30,2024-12-12,7,Marketing,Internal,Consumer free tier,134,44,Medium
+Lensa AI,prisma-ai.com,Image Processing,2024-09-15,2024-12-08,6,HR,PII,Consumer free tier,89,82,Critical
+Mem.ai,mem.ai,Knowledge Management,2024-06-18,2024-12-16,15,Engineering,Confidential,Business tier,267,41,Medium
+Replit Ghostwriter,replit.com,Coding Assistant,2024-02-14,2024-12-16,8,Engineering,Internal,Consumer free tier,445,58,High
+Stable Diffusion Web,stablediffusionweb.com,Image Generation,2024-10-22,2024-12-09,12,Design,Internal,Consumer free tier,156,62,High
+Wordtune,wordtune.com,Writing Assistant,2024-01-20,2024-12-16,56,All,Internal,Business tier,1340,32,Medium
+Pictory,pictory.ai,Video Generation,2024-07-08,2024-12-11,5,Marketing,Internal,Business tier,78,39,Medium
+Krisp,krisp.ai,Audio Processing,2024-04-25,2024-12-16,19,Sales,Confidential,Business tier,412,47,Medium
+Tabnine,tabnine.com,Coding Assistant,2024-03-03,2024-12-16,6,Engineering,Internal,Enterprise tier,523,18,Low
+Simplified,simplified.com,Design/Content,2024-08-12,2024-12-13,9,Marketing,Internal,Consumer free tier,167,50,High
+Tome,tome.app,Presentation AI,2024-09-28,2024-12-10,7,Sales,Internal,Consumer free tier,93,46,Medium
+Consensus,consensus.app,Research Assistant,2024-11-02,2024-12-15,4,Research,Internal,Consumer free tier,54,27,Low
+Anthropic API Personal,api.anthropic.com,LLM API,2024-06-10,2024-12-16,3,Engineering,Confidential,Personal API key,278,91,Critical
+DeepL Write,deepl.com,Translation/Writing,2024-02-18,2024-12-16,41,All,Internal,Business tier,876,25,Low
+Bard Personal,bard.google.com,LLM/Chat,2024-05-01,2024-12-16,32,Engineering,Confidential,Consumer free tier,389,74,Critical
+Elicit,elicit.org,Research Assistant,2024-10-15,2024-12-14,8,Research,Internal,Consumer free tier,142,31,Medium
+Soundraw,soundraw.io,Music Generation,2024-07-28,2024-12-09,2,Marketing,Internal,Consumer free tier,28,22,Low
+Murf.ai,murf.ai,Voice Generation,2024-06-05,2024-12-12,5,Marketing,Internal,Consumer free tier,87,53,High
+Cleanup.pictures,cleanup.pictures,Image Processing,2024-09-08,2024-12-11,11,Design,Internal,Consumer free tier,145,43,Medium
+Phind,phind.com,Code Search,2024-04-12,2024-12-15,13,Engineering,Internal,Consumer free tier,298,37,Medium
+ChatPDF,chatpdf.com,Document Analysis,2024-03-21,2024-12-14,18,All,Confidential,Consumer free tier,312,64,High
+Gamma,gamma.app,Presentation AI,2024-08-05,2024-12-13,10,Sales,Internal,Consumer free tier,178,49,Medium
+Sudowrite,sudowrite.com,Creative Writing,2024-10-30,2024-12-08,3,Marketing,Internal,Consumer free tier,41,34,Medium
+You.com,you.com,AI Search,2024-05-17,2024-12-16,26,Research,Internal,Consumer free tier,445,29,Medium
+Krea.ai,krea.ai,Image Generation,2024-11-12,2024-12-07,4,Design,Internal,Consumer free tier,57,56,High
+Beautiful.ai,beautiful.ai,Presentation AI,2024-02-09,2024-12-16,12,Sales,Internal,Business tier,234,24,Low
+Replika,replika.com,Conversational AI,2024-09-20,2024-12-06,2,HR,PII,Consumer free tier,76,95,Critical
+Caktus AI,caktus.ai,Academic Assistant,2024-11-01,2024-12-12,6,Research,Internal,Consumer free tier,89,61,High
+Quillbot,quillbot.com,Paraphrasing,2024-01-25,2024-12-16,67,All,Internal,Business tier,1567,26,Low
+Sembly AI,sembly.ai,Meeting Assistant,2024-06-30,2024-12-15,14,Sales,Confidential,Business tier,289,54,High
+Playground AI,playgroundai.com,Image Generation,2024-10-08,2024-12-10,7,Design,Internal,Consumer free tier,112,59,High
+Poe,poe.com,Multi-LLM Platform,2024-07-19,2024-12-16,21,Engineering,Confidential,Consumer free tier,367,85,Critical
+Rytr,rytr.me,Content Generation,2024-04-28,2024-12-14,8,Marketing,Internal,Consumer free tier,156,40,Medium

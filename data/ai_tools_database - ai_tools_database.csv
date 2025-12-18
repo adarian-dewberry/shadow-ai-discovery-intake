@@ -1,0 +1,33 @@
+ai_tools_database,Primary Domain(s),Category,Data Risk Level,Vendor Security Posture,Typical Use Cases,Compliance Concerns
+ChatGPT,"openai.com, chat.openai.com",LLM/Chat Services,High (Free/Plus) / Low (Ent),Consumer / Enterprise,"Drafting emails, summarizing text, coding help",Input data training; IP leakage; GDPR rights
+Claude,"claude.ai, anthropic.com",LLM/Chat Services,Medium,Consumer / Enterprise,"Analysis, coding, creative writing",Data retention policies; sensitive upload risks
+Gemini,"gemini.google.com, bard.google.com",LLM/Chat Services,High (Consumer),Consumer / Enterprise,"Integrated workspace tasks, search, drafting",Google ecosystem data sharing; consumer account mix
+Perplexity,perplexity.ai,LLM/Chat Services,Medium,Consumer / Pro,"Research, web search synthesis",Ingesting internal queries; source hallucination
+Character.AI,character.ai,LLM/Chat Services,Critical,Consumer,"Entertainment, roleplay",Unprofessional use; lack of business controls
+Poe,poe.com,LLM/Chat Services,High,Consumer,"Aggregator for LLMs, testing models",3rd-party data sharing; obscure data flow
+GitHub Copilot,copilot.github.com,Coding Assistants,Medium,Enterprise,"Code autocompletion, refactoring",IP leakage in snippets; open-source licensing
+Cursor,cursor.sh,Coding Assistants,High,Consumer / Business,"AI-first code editor, chat-with-codebase",Telemetry data; full codebase indexing to cloud
+Codeium,codeium.com,Coding Assistants,Medium,Business,"Code completion, chat",Code privacy; data residency concerns
+Tabnine,tabnine.com,Coding Assistants,Low (Ent) / Med (Pro),Enterprise,Code prediction (local/private cloud),Model training on private code if misconfigured
+Amazon CodeWhisperer,[aws.amazon.com/codewhisperer](https://aws.amazon.com/codewhisperer),Coding Assistants,Medium,Enterprise,"AWS-specific coding, completion",AWS data usage policies; IAM permissions
+Jasper,jasper.ai,Content Generation,Medium,Business,"Marketing copy, blog posts",Ingesting strategy/trade secrets; ownership
+Copy.ai,copy.ai,Content Generation,Medium,Business,"Social posts, ad copy, email",Inputting sensitive customer data
+Writesonic,writesonic.com,Content Generation,Medium,Consumer / Business,"SEO articles, landing pages",SEO data leakage; plagiarism risks
+Rytr,rytr.me,Content Generation,Medium,Consumer,"Short-form content, outlines",Lack of enterprise controls; data retention
+Wordtune,wordtune.com,Content Generation,High,Consumer,"Rewriting sentences, tone",Browser integration reading sensitive fields
+Midjourney,"midjourney.com, discord.gg",Design/Image Tools,High,Consumer,"Concept art, marketing visuals",Copyright ownership; public prompt visibility
+DALL-E,labs.openai.com,Design/Image Tools,Medium,Consumer / Enterprise,Image generation from text,Uploading proprietary product images
+Stable Diffusion,stability.ai,Design/Image Tools,High (Web) / Low (Local),Consumer / Open Source,"Local generation, fine-tuning",Deepfake potential; hosting unverified binaries
+Canva Magic,canva.com,Design/Image Tools,Medium,Consumer / Enterprise,"Social graphics, presentations",Corporate branding assets in non-ent cloud
+Adobe Firefly,firefly.adobe.com,Design/Image Tools,Low,Enterprise,"Commercial-safe generation, Creative Cloud",Adobe Stock usage rights; training data usage
+Otter.ai,otter.ai,Productivity/Meeting,High,Consumer / Business,"Transcription, automated notes",Recording without consent; sensitive audio storage
+Fireflies,fireflies.ai,Productivity/Meeting,High,Business,"Recording, transcription, CRM entry",Bot joining confidential meetings; data sharing
+Grain,grain.com,Productivity/Meeting,Medium,Business,"Video clipping, research summaries",PII in customer calls; video storage
+Fathom,fathom.video,Productivity/Meeting,Medium,Consumer / Business,"Personal assistant, highlighting",Recording confidential 1:1s; retention
+Notion AI,notion.so,Productivity/Meeting,High,Consumer / Business,"Workspace org, summarizing, writing",Entire wiki processed by AI; sub-processor risks
+ChatGPT Extension,Various IDs,Browser Extensions,Critical,Consumer,Quick access to ChatGPT,Read/change all website data; capturing internal portals
+Grammarly,grammarly.com,Browser Extensions,High (Free) / Low (Ent),Consumer / Enterprise,"Spelling, grammar, tone",Keylogging-like behavior; analyzing sensitive emails
+Compose AI,Chrome Web Store,Browser Extensions,High,Consumer,"Email drafting, completion",Reading email contents; browser permissions
+Monica,monica.im,Browser Extensions,High,Consumer,"All-in-one sidebar (Chat, PDF)",Broad permissions; processing viewed pages
+Merlin,getmerlin.in,Browser Extensions,High,Consumer,ChatGPT on any website,Injecting code; scraping page context
+WebChatGPT,Chrome Web Store,Browser Extensions,High,Consumer,Augmenting ChatGPT with web results,Sending browsing history/search queries
