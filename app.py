@@ -374,7 +374,7 @@ def main():
 
     st.markdown("---")
     st.markdown(
-        "Built by Adarian Dewberry — [Portfolio](#) | [GitHub](#) | [LinkedIn](#)"
+        "Built by Adarian Dewberry — [Portfolio](https://adariandewberry.com) | [GitHub](https://github.com/adarian-dewberry) | [LinkedIn](https://www.linkedin.com/in/adariandewberry/)"
     )
 
 
